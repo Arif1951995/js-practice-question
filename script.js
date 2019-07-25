@@ -112,14 +112,14 @@ let students = [
     }else {
         gender = 'male'
     }
-    console.log( {
-        Name: e.name,
-        Gender: gender,
-        City: e.address.city,
-        Score: e.admissionTestScore
+    console.log( 
+       ` Name: ${e.name}
+        Gender: ${gender}
+        City: ${e.address.city}
+        Score: ${e.admissionTestScore}`
         
 
-    })
+    )
 })
 
   console.log(`
